@@ -827,6 +827,7 @@ var gameEnded=false;
 animate();
 function animate()
 {
+	gameSoundLoop.pause();
 requestAnimationFrame(animate);
 
 //gameSoundLoop.play();
